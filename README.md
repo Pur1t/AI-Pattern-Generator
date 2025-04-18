@@ -1,5 +1,7 @@
 # AI Pattern Generator
 
+**Built for the Unity game project [PulseShift](https://github.com/Pur1t/PulseShift)**
+
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0)
 
 > A tool for generating AI-driven patterns to integrate directly into Unity projects.
@@ -28,6 +30,7 @@ The **AI Pattern Generator** is a Python-based utility that leverages machine le
 ## ✨ Features
 
 - Generate procedural patterns using AI models.
+- Tempo estimation based on the method described in [Streamlined Tempo Estimation Based on Autocorrelation and Cross-correlation With Pulses](https://www.researchgate.net/publication/265130658_Streamlined_Tempo_Estimation_Based_on_Autocorrelation_and_Cross-correlation_With_Pulses).
 - Supports customizable parameters for pattern complexity and style.
 - Seamless integration with Unity (drag & drop into `StreamingAssets`).
 - Cross-platform: Windows, macOS, and Linux support via an executable.
@@ -80,36 +83,6 @@ To package the tool into a stand-alone executable using PyInstaller:
 
 ---
 
-## ▶️ Usage
-
-Run the executable directly or call the Python script:
-
-```bash
-# Using the executable (after build)
-./dist/AI-Pattern-Generator/AI-Pattern-Generator --config config.yml
-
-# Or directly via Python
-python main.py --config config.yml
-```
-
-Refer to `docs/USAGE.md` for detailed command-line options and examples.
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome! Please follow these steps:
-
-1. Fork the repository.
-2. Create a feature branch (`git checkout -b feature/YourIdea`).
-3. Commit your changes (`git commit -m "Add feature"`).
-4. Push to the branch (`git push origin feature/YourIdea`).
-5. Open a pull request.
-
-Please ensure all new code is properly documented and tested.
-
----
-
 ## 📄 License
 
 This project is licensed under the **Apache License, Version 2.0** (the "License"). You may not use this software except in compliance with the License. You may obtain a copy at:
@@ -129,9 +102,6 @@ Unless required by applicable law or agreed to in writing, software distributed 
 
 ## 🎓 Attribution
 
-Developed by the Computer Science Department, Faculty of Science, Kasetsart University.
+Developed by the Purit T, Faculty of Science, Kasetsart University.
 
 ---
-
-*Happy pattern generating!*
-
